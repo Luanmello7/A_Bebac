@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    padding-top: 10px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+header {
+    display: inline;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+body h1 {
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    max-width: 600px;
+    justify-content: space-between;
+}
+
+form input{
+    font-size: 20px;
+}
